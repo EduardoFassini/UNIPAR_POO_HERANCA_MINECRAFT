@@ -6,10 +6,6 @@ public class Personagem {
     int fome;
     String nickName;
 
-    void usarFerramenta(){
-        bater();
-        quebrarBloco();
-    }
     void andar(){
         System.out.println("O personagem anda");
     }
