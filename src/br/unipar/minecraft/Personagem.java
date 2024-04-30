@@ -1,6 +1,6 @@
 package br.unipar.minecraft;
 
-public class Personagem extends Ferramenta{
+public class Personagem {
 
     int vida;
     int fome;

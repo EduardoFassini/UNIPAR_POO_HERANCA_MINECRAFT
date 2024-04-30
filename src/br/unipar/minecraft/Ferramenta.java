@@ -1,6 +1,6 @@
 package br.unipar.minecraft;
 
-public class Ferramenta {
+public class Ferramenta extends Item {
 
     String nome;
     String tipo;
@@ -10,10 +10,4 @@ public class Ferramenta {
     String material;
     String tipoBloco = "Blocos em geral";
 
-    void bater() {
-        System.out.println("Dar dano = " + dano);
-    }
-    void quebrarBloco() {
-        System.out.println("Quebra " + tipoBloco + " com velocidade = " + velocidade);
-    }
 }
