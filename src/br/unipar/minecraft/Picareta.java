@@ -4,7 +4,7 @@ public class Picareta extends Item{
 
     private Picareta(){
         setTipo("Picareta");
-        setTipoBloco("Pedra e seus derivados");
+        setTipoBloco("Minérios, pedra e seus derivados");
     }
 
 }
